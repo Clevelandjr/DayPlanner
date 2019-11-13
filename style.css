@@ -1,0 +1,13 @@
+
+.container{
+    background-color: #ffffff;
+    height: 200px;
+    text-align: center !important;
+    border-bottom: #000000 20px solid;
+}
+.content{
+    width: auto;
+}
+.area{
+    width: 900px;
+}
