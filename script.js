@@ -1,2 +1,3 @@
 var dt = new Date();
-document.getElementById("datetime").innerHTML=dt.toLocaleString();
+document.getElementById("currentDay").innerHTML=dt.toLocaleString();
+
