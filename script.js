@@ -34,3 +34,4 @@ window.onload = function () {
  function getSavedText() {
     $("#9AM").val(localStorage.getItem("9AM"));
  }
+ getSavedText();
