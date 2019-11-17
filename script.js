@@ -31,7 +31,7 @@ window.onload = function () {
     console.log(input);
     localStorage.setItem(time, input);
  })
- function getSavedText() {
-    $("#9AM").val(localStorage.getItem("9AM"));
- }
- getSavedText();
+ ///storage///
+ 
+
+
