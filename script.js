@@ -1,11 +1,8 @@
-// The current day will be displayed.
+// The current day//
 window.onload = function () {
     var today = new Date();
     date = moment().format('LL');
-    // var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    // var monthNum = today.getMonth();
-    // currentMonth = months[monthNum];
-    // var date = (currentMonth+''+today.getDate()+','+today.getFullYear());
+    
     $('#currentDay').html(date);
  }
  var workHours = ['9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM'];
