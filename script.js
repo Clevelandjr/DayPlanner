@@ -31,9 +31,17 @@ window.onload = function () {
     console.log(input);
     localStorage.setItem(time, input);
  })
-
- $('.time-9AM .input').val(localStorage.getItem('9AM'))
+//storage///
+ //$('.time-9AM .input').val(localStorage.getItem('9AM'))
  ///storage///
+ 
+ $.each(workHours, function (index, value) {
+    console.log(value)
+    $('.time-'+value+' .input').val(localStorage.getItem(value))
+ })
+ //for (var i = 0; i < localStorage.length; i++){
+   //$('.time-'+ value).val(localStorage.getItem(localStorage.key(i)));
+//}
 //  $('#col-sm-10').html();
 // localStorage.content = $('#col-sm-10').html();
 // $('#col-sm-10').html(localStorage.content);
