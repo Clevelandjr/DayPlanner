@@ -69,6 +69,15 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+  .gray{
+    background: #afafaf;
+  }
+  .green{
+    background: #00ff00;
+  }
+  .red{
+    background: #b83400;
+  }
   /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }
