@@ -13,7 +13,7 @@ window.onload = function () {
  $.each(workHours, function (index, value) {
     var $newRow = $('<div>').addClass('row');
     var $newCol1 = $('<div>' + value + '</div>').addClass('col-sm-1 hour time');
-    var $newCol2 = $('<div></div>').addClass('col-sm-10 past description');
+    var $newCol2 = $('<div></div>').addClass('col-sm-10 past description time-' + value);
     var $newCol3 = $('<button></button>').addClass('col-sm-1 saveBtn');
     var textarea = $('<textarea></textarea>').addClass('col-sm-12 input');
     var icon = $('<i class="far fa-save fa-3x" style="margin: auto; padding: 10px;"></i>');
@@ -31,7 +31,11 @@ window.onload = function () {
     console.log(input);
     localStorage.setItem(time, input);
  })
+
+ $('.time-9AM .input').val(localStorage.getItem('9AM'))
  ///storage///
- 
+//  $('#col-sm-10').html();
+// localStorage.content = $('#col-sm-10').html();
+// $('#col-sm-10').html(localStorage.content);
 
 
