@@ -7,7 +7,7 @@ I started this planner by looking at previous class activities and using my goog
 A few classmates and I pulled together resources from multiple pages to get our rows and columns. a good source for that was https://www.youtube.com/watch?v=TIMTit3II0I
 I used w3 schools and overstack with a few other sites to start my storage. I also had help from my roomate who understands all of this.
 To convert my strings into number I used https://www.geeksforgeeks.org/converting-strings-numbers-cc/ .
-
+<img src="images/screenshot2.png">
 
 
 
